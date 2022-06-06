@@ -1,12 +1,18 @@
 build/
 *.apk
+*.aab
 output.json
 
 local.properties
 
 .gradle/
 
-.idea/
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
 *.iml
 
 node_modules/
