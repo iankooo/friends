@@ -1,4 +1,4 @@
-package com.example.friends
+package sir.ianko.friends
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.friends.ui.theme.FriendsTheme
+import sir.ianko.friends.ui.theme.FriendsTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

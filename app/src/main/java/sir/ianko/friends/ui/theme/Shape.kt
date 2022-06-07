@@ -1,4 +1,4 @@
-package com.example.friends.ui.theme
+package sir.ianko.friends.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

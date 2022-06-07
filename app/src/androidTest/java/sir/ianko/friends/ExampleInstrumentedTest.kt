@@ -1,4 +1,4 @@
-package com.example.friends
+package sir.ianko.friends
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

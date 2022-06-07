@@ -1,4 +1,4 @@
-package com.example.friends
+package sir.ianko.friends
 
 import org.junit.Test
 
