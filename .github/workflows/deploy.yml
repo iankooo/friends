@@ -43,7 +43,7 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: app-debug
-          path: app/build/outputs/apk/androidTest/debug/app-debug.apk
+          path: app/build/outputs/apk/debug/app-debug.apk
 
       - name: Assemble app instrumentation tests
         run: ./gradlew assembleDebugAndroidTest
@@ -52,7 +52,7 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: app-debug-androidTest
-          path: app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
+          path: app/build/outputs/apk/debug/app-debug-androidTest.apk
 
   firebase:
     name: Run UI tests with Firebase Test Lab
